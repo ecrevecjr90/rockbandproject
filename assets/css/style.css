@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*------------------------------------------------Colors*/
+
+body{
+    background-color: #607aa0;
+    color: #000000;
+    text-align: center;
+}
+
+
+/*------------------------------------------------Tour Dates*/
+
+.tour-date-heading{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.tour-dates{
+    font-family: "Exo", sans-serif;
+}
+
+.bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+}
+
+.bg-1 h3 {
+    color: #fff;
+  
+}
+
+.bg-1 p {
+    font-style: italic;
+    
+}
+
+/*------------------------------------------------Header*/
+
+header{
+    display: inline-block;
+}
+
+.logo{
+    background: url("../assets/pictures/band.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+.navbar{
+    margin: 0;
+    padding: 0;
+    background-color: #9dacb2;
+    height: 50px;
+    list-style-type: none;
+}
+
+.navbar-items{
+    display: inline;
+}
+
+.navbar a {
+    float: center;
+    color: #000000;
+    text-align: left;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-item-home:hover{
+    background: #e84610;
+    
+}
+
+/*------------------------------------------------Footer*/
+
+footer{
+    background-color: #0f0c06;
+    opacity: .8;
+    display: block;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook{
+    color: #036bc6;
+}
+
+.fa-facebook:hover{
+    opacity: .5;
+    animation: ease-in-out .5s;
+    background-color: #1e1f21;
+    color:#438de8;
+}
+
+.fa-twitter{
+    color: #0288ef;
+}
+
+.fa-twitter:hover{
+     opacity: .5;
+    animation: ease-in-out .5s;
+    background-color: #1e1f21;
+    color:#438de8;
+}
+
+.fa-instagram{
+    color: #efbe6e;
+}
+
+.fa-instagram:hover{
+     opacity: .5;
+    animation: ease-in-out .5s;
+    background-color: #1e1f21;
+    color:#438de8;
+}
+
+
+.fa-youtube{
+    color: #e81f09;
+}
+
+.fa-youtube:hover{
+     opacity: .5;
+    animation: ease-in-out .5s;
+    background-color: #1e1f21;
+    color:#438de8;
+}
+
+/*------------------------------------------------Biography Page*/
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+}
+.person:hover {
+    border-color: #f1f1f1;
+}
+
+/*-------Submission Section*/
